@@ -216,9 +216,3 @@ The scripts in `tests/` are manual integration/demo scripts. They expect the bac
 - Keep local-only files such as `.DS_Store`, `.venv/`, `__pycache__/`, `best.pt`, `fire_system.db`, `detection_images/*`, `model_cache/`, `secrets/`, `local_assets/`, and `local_backup/` out of git.
 - Rotate any credential that was ever committed or shared publicly.
 - Keep live alerting disabled unless you are deliberately testing with verified recipients.
-
-## Credits
-
-Designed and developed by Muhammad Umar Farooq.
-
-[Portfolio](https://omerfarooq223.github.io)
