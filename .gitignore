@@ -1,0 +1,81 @@
+# ============================================================
+# Fire & Smoke Detection — .gitignore
+# ============================================================
+
+# Sensitive Credentials
+.env
+.env.*
+!.env.example
+credentials.json
+token.json
+secrets/
+.secrets/
+local_assets/
+
+# Databases and Local Storage
+fire_system.db
+detection_images/
+fire_seg_final_results.zip
+*.pt
+model_cache/
+
+# Python/Environment
+__pycache__/
+.venv/
+.venv.nosync/
+.venv.nosync
+frontend/.venv.nosync/
+frontend/.venv.nosync
+.env.local
+.DS_Store
+
+# Python virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model weights (large files — use Git LFS or store separately)
+*.pt
+*.pth
+*.onnx
+
+# Database files (contain runtime data)
+*.db
+*.sqlite
+
+# macOS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Zip archives (commit originals only if needed via LFS)
+*.zip
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# Media & Archives
+*.mp4
+*.avi
+_archive/
+local_backup/
+local_backup.nosync/
+local_backup.nosync
+New Folder With Items/
+
+# Output directories
+detection_images/*
+!detection_images/.gitkeep
+rag_documents/documents.json
+frontend/dist/
+node_modules/

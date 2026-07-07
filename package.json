@@ -1,0 +1,14 @@
+{
+  "name": "fire-and-smoke-detection",
+  "version": "1.0.0",
+  "description": "Fire and smoke detection dashboard with FastAPI, React, YOLO, RAG, and demo-safe alerts.",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "preview": "npm run preview --prefix frontend",
+    "lint": "npm run lint --prefix frontend",
+    "check": "npm run lint && npm run build && python3 -m compileall fire_backend.py fire_agent.py real_rag_system.py tests"
+  }
+}

@@ -1,0 +1,33 @@
+# Core Backend & API
+fastapi>=0.110.0
+uvicorn>=0.27.0
+sqlalchemy>=2.0.0
+aiosqlite>=0.20.0
+greenlet>=3.0.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+requests>=2.31.0
+pillow>=10.2.0
+reportlab>=4.5.0
+numpy>=1.26.0
+
+# Deep Learning & Computer Vision
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+ultralytics>=8.1.0
+opencv-python-headless>=4.9.0
+
+# Agentic RAG System
+sentence-transformers>=2.5.0
+transformers<4.49.0
+faiss-cpu>=1.7.0
+langchain>=0.1.0
+
+# Analysis & Utils
+pandas>=2.2.0
+watchdog>=4.0.0
+google-api-python-client>=2.120.0
+google-auth>=2.28.0
+google-auth-oauthlib>=1.2.0
+huggingface-hub>=0.30.0
