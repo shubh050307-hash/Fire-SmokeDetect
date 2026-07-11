@@ -1,13 +1,55 @@
-# FireWatch AI: Fire and Smoke Detection Dashboard
+<div align="center">
+
+# 🚨 FireWatch AI
+**Advanced Fire and Smoke Detection & Monitoring Dashboard**
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
 [![YOLOv8](https://img.shields.io/badge/YOLOv8-00A6ED?style=for-the-badge)](https://ultralytics.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](./LICENSE)
 
-FireWatch AI is a fire and smoke monitoring system with a FastAPI backend, YOLO-based video analysis, a React tactical dashboard, optional RAG-assisted safety guidance, and demo-safe alert workflows.
-
 ![System Demo](./demo.gif)
+
+*FireWatch AI is a comprehensive, real-time fire and smoke monitoring system designed to provide rapid detection, tactical insights, and automated safety workflows.*
+</div>
+
+---
+
+## ✨ Key Features
+
+### 🧠 AI & Computer Vision
+* **YOLO-based Video Analysis:** Real-time video frame sampling and fire/smoke detection using optional YOLOv8 model weights (with an intelligent heuristic fallback).
+* **Groq-powered RAG Safety Assistant:** Optional Retrieval-Augmented Generation (RAG) for synthesizing immediate safety guidance and procedures on the fly.
+
+### 💻 Tactical Dashboard (Frontend)
+* **React + Vite:** Lightning-fast, modern web interface.
+* **Data Visualization:** Animated overlays and timeline metrics for an intuitive view of detections and incident timelines.
+* **Interactive Controls:** Response controls and a floating safety assistant to manage emergencies seamlessly.
+
+### ⚙️ Robust Backend & Alerting
+* **FastAPI Backend:** High-performance API driving the core system logic.
+* **State Management:** SQLite database to efficiently manage monitoring zones, active detections, incident logs, and safety procedures.
+* **Demo-Safe Alert Workflows:** Built-in Gmail alert modes with confirmation frames and cooldown guards to prevent spamming during testing or demos.
+
+---
+
+## 🏗️ Repository Architecture
+
+```text
+FireWatch AI
+├── .github/workflows/ci.yml      # GitHub Actions checks
+├── docs/
+│   ├── ALERTING.md               # Demo/email alert modes and safety guardrails
+│   └── DEPLOYMENT.md             # Vercel + Render + Hugging Face deployment guide
+├── frontend/                     # React + Vite dashboard
+│   ├── src/                      # Dashboard source
+│   ├── public/                   # Static frontend assets
+│   ├── package.json              # Frontend scripts and dependencies
+│   └── package-lock.json         # Reproducible frontend installs
+├── tests/                        # Manual integration/demo scripts
+│   ├── manual_emergency.py       # Manual agent workflow check
+│   ├── test_agent.py             # Manual agent/backend integration demo
+│   └── test_backend.py           # Manual backend API demo
 
 ## Features
 
