@@ -258,3 +258,25 @@ The scripts in `tests/` are manual integration/demo scripts. They expect the bac
 - Keep local-only files such as `.DS_Store`, `.venv/`, `__pycache__/`, `best.pt`, `fire_system.db`, `detection_images/*`, `model_cache/`, `secrets/`, `local_assets/`, and `local_backup/` out of git.
 - Rotate any credential that was ever committed or shared publicly.
 - Keep live alerting disabled unless you are deliberately testing with verified recipients.
+
+  ## 📚 Documentation <a name="documentation"></a>
+
+### 🤝 Contributing
+Contributions are always welcome! Whether it is adding new themes. If you have a feature idea, feel free to open an Issue or submit a Pull Request.
+
+<a name="contacts"></a>
+## 🤝 Contacts
+
+| Source | Link |
+| :--- | :--- |
+| **GitHub Profile** | [shubh050307-hash](https://github.com/shubh050307-hash) |
+| **Project Repository** | [Firewatch -AI](https://github.com/shubh050307-hash/Fire-SmokeDetect/) |
+
+### 🙌 Credits
+
+<div align="center"><img src="https://placehold.co/100x3/9A1838/9A1838.png" width="10%" height="3px"><img src="https://placehold.co/100x3/B43E2C/B43E2C.png" width="10%" height="3px"><img src="https://placehold.co/100x3/C56821/C56821.png" width="10%" height="3px"><img src="https://placehold.co/100x3/CE921C/CE921C.png" width="10%" height="3px"><img src="https://placehold.co/100x3/D0B92B/D0B92B.png" width="10%" height="3px"><img src="https://placehold.co/100x3/81A543/81A543.png" width="10%" height="3px"><img src="https://placehold.co/100x3/258C5A/258C5A.png" width="10%" height="3px"><img src="https://placehold.co/100x3/166B8E/166B8E.png" width="10%" height="3px"><img src="https://placehold.co/100x3/154BB2/154BB2.png" width="10%" height="3px"><img src="https://placehold.co/100x3/0E2A80/0E2A80.png" width="10%" height="3px"></div>
+<p align="center">
+  <b>Built by SG's for the 🌏 </b>
+  <br>
+  Don't forget to ⭐ star the repo if you like this project!
+</p>
